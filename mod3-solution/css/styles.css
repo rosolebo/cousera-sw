@@ -1,0 +1,79 @@
+body{
+    font-size: 16px;
+    color: #3F0C1F;
+    background-color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navbar-brand{
+    padding-bottom: 15px;
+}
+
+.navbar-brand h1{
+    font-family: 'Times New Roman', Times, serif;
+   /*color: #3F0C1F;  */
+    color: #F6B319;
+    text-rendering: geometricPrecision;
+    font-weight: bold;
+    line-height: .150;
+}
+#nav-list a{
+    color: #951C49;
+    text-align: center;
+}
+#nav-list a:hover{
+    background: #E7E7E7;
+}
+#nav-list a span{
+    font-size: 1.8em;
+}
+.navbar-header button.navbar-toggle{
+    border: 1px solid #61122F;
+}
+
+.menu-item1, .menu-item2, .menu-item3 {
+    float: left;
+    background: #F6B319;
+    margin: 10px 10px;
+
+}
+h3{
+    border: none;
+    text-align: center;
+    padding-top: 10px;
+}
+
+
+
+/**** Large devices only ****/
+@media (min-width: 1200px){
+    .menu-item1, .menu-item2, .menu-item3 {
+        width: 31.6%;
+    }  
+}
+
+/**** Medium devices only ****/
+@media (min-width: 992px) and (max-width: 1199px){
+    .menu-item1, .menu-item2, .menu-item3 {
+        width: 31.2%;
+    } 
+}
+
+/**** Small devices only ****/
+@media (min-width: 768px) and (max-width: 991px){
+    .menu-item1, .menu-item2 {
+        width: 47.0%; 
+    }
+    .menu-item3 {
+        width: 96.0%;   
+    }
+}
+
+/**** Extra small devices only ****/
+@media (max-width: 767px){
+    .menu-item1, .menu-item2, .menu-item3 {
+        width: 97.0%;
+    }
+}   
+
+/**** Super extra small devices only ****/
+/* @media (max-width: 479px){} */
